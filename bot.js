@@ -11,19 +11,19 @@ client.on('guildMemberAdd' , member => {
 	const channel = member.guild.channels.find('name', 'quiet');
 	if(!channel) return;
 	channel.send('**__# Weélcooome To Quietness..,__:dove: :leaves:**');
-)};
+});
 
 client2.on('guildMemberAdd' , member => {
 	const channel = member.guild.channels.find('name', 'quiet');
 	if(!channel) return;
 	channel.send('**__# Weélcooome To Quietness..,__:dove: :leaves:**');
-)};
+});
 
 client3.on('guildMemberAdd' , member => {
 	const channel = member.guild.channels.find('name', 'quiet');
 	if(!channel) return;
 	channel.send('**__# Weélcooome To Quietness..,__:dove: :leaves:**');
-)};
+});
 
 
 
