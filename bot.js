@@ -4,29 +4,29 @@ const client2 = new Discord.Client();
 const client3 = new Discord.Client();
 
 
-
-
-
-client.on('guildMemberAdd' , member => {
-	const channel = member.guild.channels.find('name', 'quiet');
-	if(!channel) return;
-	channel.send('**__# Weélcooome To Quietness..,__:dove: :leaves:**');
+client.on('guildMemberAdd', member => {
+const mohamed= member.guild.channels.get("509812306058805288");
+if(!mohamed) return;
+if(mohamed) {
+setTimeout(() => mohamed.send(`**__# Weélcooome To Quietness..,__:dove: :leaves:**`), 4000)        
+}
 });
 
-client2.on('guildMemberAdd' , member => {
-	const channel = member.guild.channels.find('name', 'quiet');
-	if(!channel) return;
-	channel.send('**__# Weélcooome To Quietness..,__:dove: :leaves:**');
+client2.on('guildMemberAdd', member => {
+const mohamed= member.guild.channels.get("509812306058805288");
+if(!mohamed) return;
+if(mohamed) {
+setTimeout(() => mohamed.send(`**__# Weélcooome To Quietness..,__:dove: :leaves:**`), 4000)        
+}
 });
 
-client3.on('guildMemberAdd' , member => {
-	const channel = member.guild.channels.find('name', 'quiet');
-	if(!channel) return;
-	channel.send('**__# Weélcooome To Quietness..,__:dove: :leaves:**');
+client3.on('guildMemberAdd', member => {
+const mohamed= member.guild.channels.get("509812306058805288");
+if(!mohamed) return;
+if(mohamed) {
+setTimeout(() => mohamed.send(`**__# Weélcooome To Quietness..,__:dove: :leaves:**`), 4000)        
+}
 });
-
-
-
 
 client.login(process.env.TOKEN);
 client2.login(process.env.TOKEN2);
