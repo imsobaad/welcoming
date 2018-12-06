@@ -5,26 +5,26 @@ const client3 = new Discord.Client();
 
 
 client.on('guildMemberAdd', member => {
-const mohamed= member.guild.channels.get("509812306058805288");
+const mohamed= member.guild.channels.get("519933953868693504");
 if(!mohamed) return;
 if(mohamed) {
-setTimeout(() => mohamed.send(`**__# Weélcooome To Quietness..,__:dove: :leaves:**`), 4000)        
+setTimeout(() => mohamed.send(`**__# Weélcooome To Néevira..,__:bouquet: :rose:**`), 4000)        
 }
 });
 
 client2.on('guildMemberAdd', member => {
-const mohamed= member.guild.channels.get("509812306058805288");
+const mohamed= member.guild.channels.get("519933953868693504");
 if(!mohamed) return;
 if(mohamed) {
-setTimeout(() => mohamed.send(`**__# Weélcooome To Néevira..,__:dove: :leaves:**`), 4000)        
+setTimeout(() => mohamed.send(`**__# Weélcooome To Néevira..,__:bouquet: :rose:**`), 4000)        
 }
 });
 
 client3.on('guildMemberAdd', member => {
-const mohamed= member.guild.channels.get("509812306058805288");
+const mohamed= member.guild.channels.get("519933953868693504");
 if(!mohamed) return;
 if(mohamed) {
-setTimeout(() => mohamed.send(`**__# Weélcooome To Quietness..,__:dove: :leaves:**`), 4000)        
+setTimeout(() => mohamed.send(`**__# Weélcooome To Néevira..,__:bouquet: :rose:**`), 4000)        
 }
 });
 
