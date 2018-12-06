@@ -36,12 +36,12 @@ client.on('ready', () => { //code bot not leave room voice //Bot Is Online
 
 
 client2.on('ready', () => { //code bot not leave room voice //Bot Is Online
-    client.channels.get("519995961167314955").join(); //by : ....
+    client2.channels.get("519995961167314955").join(); //by : ....
 });
 
 
 client3.on('ready', () => { //code bot not leave room voice //Bot Is Online
-    client.channels.get("519997884134064131").join(); //by : ....
+    client3.channels.get("519997884134064131").join(); //by : ....
 });
 
 
