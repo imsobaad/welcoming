@@ -16,7 +16,7 @@ client2.on('guildMemberAdd', member => {
 const mohamed= member.guild.channels.get("509812306058805288");
 if(!mohamed) return;
 if(mohamed) {
-setTimeout(() => mohamed.send(`**__# Weélcooome To Quietness..,__:dove: :leaves:**`), 4000)        
+setTimeout(() => mohamed.send(`**__# Weélcooome To Néevira..,__:dove: :leaves:**`), 4000)        
 }
 });
 
@@ -27,6 +27,24 @@ if(mohamed) {
 setTimeout(() => mohamed.send(`**__# Weélcooome To Quietness..,__:dove: :leaves:**`), 4000)        
 }
 });
+
+
+
+client.on('ready', () => { //code bot not leave room voice //Bot Is Online
+    client.channels.get("519995961167314955").join(); //by : ....
+});
+
+
+client2.on('ready', () => { //code bot not leave room voice //Bot Is Online
+    client.channels.get("519995961167314955").join(); //by : ....
+});
+
+
+client3.on('ready', () => { //code bot not leave room voice //Bot Is Online
+    client.channels.get("519997884134064131").join(); //by : ....
+});
+
+
 
 client.login(process.env.TOKEN);
 client2.login(process.env.TOKEN2);
